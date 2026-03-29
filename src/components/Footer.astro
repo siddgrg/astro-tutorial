@@ -1,0 +1,21 @@
+---
+import Social from "../components/Social.astro";
+
+const platform = "github";
+const githubUsername = "siddgrg";
+const igUsername = "sid_grg";
+---
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
+<footer>
+  <Social platform="twitter" username="astrodotbuild" />
+  <Social platform="github" username="siddgrg" />
+  <Social platform="instagram" username="sid_grg" />
+</footer>
